@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    # \u5F00\u53D1\u73AF\u5883
+    active: dev
+  cloud:
+    # yml\u6587\u4EF6\u7684\u771F\u6B63\u4F4D\u7F6E
+    nacos:
+      config:
+        server-addr: 192.168.5.100:8848
+        namespace: d0464f22-3805-4fcf-ace7-e160270e78fc
+        file-extension: yaml
+        prefix: shopping-pay-service
